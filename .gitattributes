@@ -1,0 +1,28 @@
+# Normalise les fins de ligne : LF dans le dépôt, conversion auto sur Windows
+* text=auto
+
+# Binaires — pas de conversion
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.whl binary
+
+# Toujours LF (scripts, configs)
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+Makefile text eol=lf
+
+# Emails et HTML du corpus : LF
+*.eml text eol=lf
+*.html text eol=lf

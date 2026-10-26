@@ -1,0 +1,10 @@
+{
+  "title": "Fiche projet",
+  "project": "GraphIA",
+  "sponsor": "FundX Capital",
+  "stack": {
+    "batch": "Apache Spark",
+    "graph": "Neo4J"
+  },
+  "license": "synthetic"
+}

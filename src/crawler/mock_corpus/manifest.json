@@ -1,0 +1,130 @@
+{
+  "generated_with_seed": 42,
+  "files": [
+    {
+      "filename": "html/doc_01.html",
+      "document_type": "html",
+      "sha256": "f2a4d59b1b99a3b471595c35909a83b41ad1bf7c12c0bad1a4f6c6280fdda682"
+    },
+    {
+      "filename": "html/doc_02.html",
+      "document_type": "html",
+      "sha256": "3aa6da1284a233350819c8abdd20510edece5fba7c274b4ddb283420e786e6f0"
+    },
+    {
+      "filename": "html/doc_03.html",
+      "document_type": "html",
+      "sha256": "4a7da1c5fdaa1f1e1c510f6ab15b45f361a8964bc2ccf64679c487d1bf6c3b57"
+    },
+    {
+      "filename": "html/doc_04.html",
+      "document_type": "html",
+      "sha256": "dff8364a9cc78b96f1d608e42f8c1b0cd9a291ce148774afe03e158aa1ea57aa"
+    },
+    {
+      "filename": "html/doc_05.html",
+      "document_type": "html",
+      "sha256": "d52e5caeefc811063e9416075c369f306c5b942f7bb43b22917b879670e47bf2"
+    },
+    {
+      "filename": "pdf/doc_01.pdf",
+      "document_type": "pdf",
+      "sha256": "b80915c39e26236111b0925988837fd43a2c733bd45e66162bac40ac00f06ea9"
+    },
+    {
+      "filename": "pdf/doc_02.pdf",
+      "document_type": "pdf",
+      "sha256": "d5fa8dd3f1ce2d0362c9461b0377c278def7949002aaf097dd09fc5b31d776c3"
+    },
+    {
+      "filename": "pdf/doc_03.pdf",
+      "document_type": "pdf",
+      "sha256": "3169e0e2953410f6a816c1ac38c71d282bc9a7a5decd09cd0737655e3c3c56a4"
+    },
+    {
+      "filename": "pdf/doc_04.pdf",
+      "document_type": "pdf",
+      "sha256": "bb5564e0ccabae79d05b4da3f7b187e7a762cdec883c2dcc2c6c23e173a1d503"
+    },
+    {
+      "filename": "pdf/doc_05.pdf",
+      "document_type": "pdf",
+      "sha256": "2109c2164b9e2071bb43b4110b847835df7da501c90f13a65f75cb0e393afd62"
+    },
+    {
+      "filename": "word/doc_01.docx",
+      "document_type": "word",
+      "sha256": "92b5ec3ed7cb11380b65071d3fa7f5fe4ede829d9cc4b50b922c2cc6c035b292"
+    },
+    {
+      "filename": "word/doc_02.docx",
+      "document_type": "word",
+      "sha256": "655953a121e4b9bae2e8dc5714119944b6ef43aa288bbd437f6a4e3e3af3af7c"
+    },
+    {
+      "filename": "word/doc_03.docx",
+      "document_type": "word",
+      "sha256": "da0e014649f67310ada42d977d5bfca28c554fdb2525eccd706cbba568f74601"
+    },
+    {
+      "filename": "word/doc_04.docx",
+      "document_type": "word",
+      "sha256": "f4a77721d137af78caf4eca3b968a1d7a8a07765d093f397ba358574ee97ddcc"
+    },
+    {
+      "filename": "word/doc_05.docx",
+      "document_type": "word",
+      "sha256": "1ae3169edc1438c3ecd68aec996c8295e9f19887e8e6c709721a440c266bf219"
+    },
+    {
+      "filename": "json/doc_01.json",
+      "document_type": "json",
+      "sha256": "daa4ab9832dc0b75a8566cf9ae7fbfd0cf6fccccd0cd8ee9a62411d900a7c565"
+    },
+    {
+      "filename": "json/doc_02.json",
+      "document_type": "json",
+      "sha256": "576f8008b3a1ec023c9503fea51699f8a8cf10d7027f05f8d7148166a74ec288"
+    },
+    {
+      "filename": "json/doc_03.json",
+      "document_type": "json",
+      "sha256": "e633f3d15dc46cee85a33f0fd480b30e0475ba4c53d2967ae9c4312263e4ae6a"
+    },
+    {
+      "filename": "json/doc_04.json",
+      "document_type": "json",
+      "sha256": "172001094da113fcd251b39c1a9624fe8dd2189745e47be29eb98d64d1fac752"
+    },
+    {
+      "filename": "json/doc_05.json",
+      "document_type": "json",
+      "sha256": "7b75e66945a1124694dcc6e3bb870de627f66baee291128af97559e5096db1d3"
+    },
+    {
+      "filename": "email/doc_01.eml",
+      "document_type": "email",
+      "sha256": "c94d5f086f7fc77142a135fa580e6e20b758dedc8e834c590549226ffd4594a7"
+    },
+    {
+      "filename": "email/doc_02.eml",
+      "document_type": "email",
+      "sha256": "90908cd8ced96ac14b56798417a45e75c8d567b9fe2e5f7857260a5d437cf199"
+    },
+    {
+      "filename": "email/doc_03.eml",
+      "document_type": "email",
+      "sha256": "dfe9b9f85591d9ee24ee12c2e501bd45a2d498720e2d0a990f70da1e6949f7b0"
+    },
+    {
+      "filename": "email/doc_04.eml",
+      "document_type": "email",
+      "sha256": "89d3373c315eb5b74a8c4fad76cf2a0676628a3e70c9673b922f2e915d8a890f"
+    },
+    {
+      "filename": "email/doc_05.eml",
+      "document_type": "email",
+      "sha256": "bc039a677747d554ee3255d445d9001a8b861fb4e20e7afff02e7a431bb28811"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+version: "1.0.0"
+
+node_types:
+  Person:       { required: [id, label, type], optional: [description, role] }
+  Organization: { required: [id, label, type], optional: [description, sector, founded] }
+  Location:     { required: [id, label, type], optional: [country, description] }
+  Project:      { required: [id, label, type], optional: [description, start_date, end_date] }
+  Technology:   { required: [id, label, type], optional: [description, domain] }
+  Event:        { required: [id, label, type], optional: [description, start_date, end_date] }
+  Document:     { required: [id, label, type, source, collected_at, content_hash], optional: [document_type, license] }
+
+relation_types:
+  WORKS_FOR:         { source: [Person],                         target: [Organization],           properties: [role, since] }
+  COLLABORATES_WITH: { source: [Organization],                   target: [Organization],           properties: [since] }
+  LOCATED_IN:        { source: [Person, Organization, Event],    target: [Location],               properties: [] }
+  LEADS:             { source: [Person],                         target: [Project],                properties: [] }
+  PARTICIPATES_IN:   { source: [Person, Organization],           target: [Project, Event],         properties: [role] }
+  FUNDS:             { source: [Organization],                   target: [Project],                properties: [amount_range] }
+  USES:              { source: [Project],                        target: [Technology],             properties: [] }
+  ORGANIZES:         { source: [Organization],                   target: [Event],                  properties: [] }
+  MENTIONS:          { source: [Document],                       target: [Person, Organization, Location, Project, Technology, Event], properties: [passage_id, char_offset, confidence_score] }
+
+common_properties:
+  confidence_score: { type: float, range: [0.0, 1.0] }
+  inferred:         { type: bool }

@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Secrets — ne jamais committer
+.env
+*.env
+!.env.example
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Hypothesis
+.hypothesis/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker volumes / logs
+*.log
+
+# Kiro internal (spec files sont committés, pas les caches)
+.kiro/steering/
+
+# Data generated — garder extraction_gold.json mais pas les données de prod
+data/raw/
+data/extracted/
+data/curated/
+data/errors/
+# Le corpus synthétique et le gold sont versionnés
+!data/extraction_gold.json
+!data/.gitkeep
+
+# Spark
+spark-warehouse/
+derby.log
+
+# HDFS local
+hdfs_data/
